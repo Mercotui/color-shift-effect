@@ -24,3 +24,9 @@ The following table gives each significant timepoint, and the event at said poin
 
 The following graph shows the phase for each of the 3 RGB channels in radians, with the timepoints denoted.
 ![warped time record graph](media/warped_time_record_graph.jpg)
+
+# Text shift diagonal
+
+This is pretty straight forward:
+
+![Text Shift Diagonal](media/text_shift_diagonal_effect.gif)
