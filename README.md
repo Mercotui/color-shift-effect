@@ -96,13 +96,9 @@ To create a video:
 
 ### Exporting to GIF
 
-This requires an extra intermediary step, since I don't think blender natively exports to gif.
-If instead of MPEG-4, we export to PNG to `./output_frames/`, we get every frame as separate PNG file.
-
-Next use:
+Using ffmpeg, we can run the following commands.
 
 ```
-convert -loop 0 -delay 2 output_frames/*.png output.gif
+ffmpeg -y -i file.mp4 -vf palettegen palette.png
+ffmpeg -y -i file.mp4 -i palette.png -filter_complex paletteuse -r 10 -s 320x480 file.gif
 ```
-
-Where the delay, in my case `2`, is in 10s of millisecondes between each frame, or `100/fps`.
