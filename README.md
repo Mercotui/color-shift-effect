@@ -7,6 +7,10 @@ The repository contains all files needed to create the following output:
 
 ![Alt Text](output/test_output.gif)
 
+It also features the blend files for some other experiments, in `./experiments/*`
+I have chosen to omit any source video files, to keep the repo from being insanely large,
+you can source your own, mine were all recorded on a 2013 smartphone known for its horrible camera.
+
 # Legal
 
 I choose to release the project files and images found in this repository under the Creative Commons Attribution 4.0 license.
@@ -76,7 +80,7 @@ Since we now have the translated red channel, we want to add the green and blue 
 
 ### Adding the animation
 
-
+TODO, KEYFRAMES, and grouping them
 
 ## Exporting
 
