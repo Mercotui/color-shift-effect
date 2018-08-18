@@ -7,7 +7,8 @@ The repository contains all files needed to create the following output:
 
 ![Alt Text](output/test_output.gif)
 
-It also features the blend files for some other experiments, in `./experiments/*`
+It also features the blend files for some other experiments, in [`./experiments/*`](experiments).
+
 I have chosen to omit any source video files, to keep the repo from being insanely large,
 you can source your own, mine were all recorded on a 2013 smartphone known for its horrible camera.
 
